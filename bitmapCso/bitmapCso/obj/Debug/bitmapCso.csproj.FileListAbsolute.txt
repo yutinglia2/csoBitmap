@@ -1,0 +1,9 @@
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\bin\Debug\bitmapCso.exe
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\bin\Debug\bitmapCso.pdb
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\obj\Debug\bitmapCso.csprojAssemblyReference.cache
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\obj\Debug\bitmapCso.Form1.resources
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\obj\Debug\bitmapCso.Properties.Resources.resources
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\obj\Debug\bitmapCso.csproj.GenerateResource.cache
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\obj\Debug\bitmapCso.csproj.CoreCompileInputs.cache
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\obj\Debug\bitmapCso.exe
+E:\E\cProject\csoBitmap\bitmapCso\bitmapCso\obj\Debug\bitmapCso.pdb

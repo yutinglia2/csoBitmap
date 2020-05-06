@@ -1,0 +1,41 @@
+
+bitBox = {}
+for i = 1, 16 do
+    bitBox[i] = {}
+    for j = 1, 16 do
+        bitBox[i][j] = UI.Box.Create()
+    end
+end
+
+function split(s, p)
+    local rt= {}
+    string.gsub(s, '[^'..p..']+', function(w) table.insert(rt, w) end )
+    return rt
+end
+
+function img1_show(x,y,w,h,l)
+    startX = tonumber(x)
+    startY = tonumber(y)
+    currX = tonumber(startX)
+    currY = tonumber(startY)
+    boxWidth = tonumber(w)
+    boxHeight = tonumber(h)
+    m = 1
+    if l == 1 then
+        m = -1
+    end
+    for i = 1,16 do
+        colorArray = split(line[i],'/')
+        for j = 1,16 do
+            colorArray2 = split(colorArray[j],',')
+            colorR = tonumber(colorArray2[1])
+            colorG = tonumber(colorArray2[2])
+            colorB = tonumber(colorArray2[3])
+            colorA = tonumber(colorArray2[4])
+            bitBox[i][j]:Set({x=currX,y=currY,width=boxWidth,height=boxHeight,r=colorR,g=colorG,b=colorB,a=colorA})
+            currX = currX + boxWidth - m
+        end
+        currX = startX
+        currY = currY + boxHeight - m 
+    end
+end
